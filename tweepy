@@ -3,8 +3,8 @@ from tweepy import OAuthHandler
 import fastavro
 
 
-auth = tweepy.OAuthHandler('xIc8Mi7gxto15DWEgkJTDWc2g', 'NB9eZX29i2BRn7NpTZdEP9s4nqUmNSjrehDyei9WtuF65cGhvG')
-auth.set_access_token('256645335-jZLAAoD7uYlJQgDpl4Ow3Y1CnDXQQktzYq9HYtYj', '5v504YsMAgiL9jWoE1V7pddLqGmBFq9PQcHXvO1NPO77I')
+auth = tweepy.OAuthHandler('')
+auth.set_access_token('')
 api = tweepy.API(auth)
 
 
