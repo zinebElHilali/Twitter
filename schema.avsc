@@ -1,0 +1,13 @@
+{
+    "type": "record",
+    "namespace": "com.badassmoviecharacters",
+    "name": "Character",
+    "doc": "Seriously badass characters",
+    "fields": [
+        {"name": "id", "type": "int"},
+        {"name": "tweet", "type": "string"},
+        {"name": "likes", "type": "int"},
+        {"name": "retweet", "type": "int"},
+        {"name": "hashtags", "type": {"type": "array", "items": "string"}}
+    ]
+}
